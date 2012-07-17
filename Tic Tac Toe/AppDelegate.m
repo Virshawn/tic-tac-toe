@@ -15,6 +15,7 @@
 @synthesize managedObjectModel = __managedObjectModel;
 @synthesize managedObjectContext = __managedObjectContext;
 
+
 - (void)dealloc
 {
     [__persistentStoreCoordinator release];
@@ -26,6 +27,7 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
 }
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "Pointdexter11.Tic_Tac_Toe" in the user's Application Support directory.

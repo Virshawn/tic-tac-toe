@@ -31,6 +31,7 @@
 		C42D303415B507E6004F9091 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C42D303715B507E6004F9091 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		C42D303A15B507E6004F9091 /* Tic_Tac_Toe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tic_Tac_Toe.xcdatamodel; sourceTree = "<group>"; };
+		C42D304115B517C6004F9091 /* Tic Tac Toe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Tic Tac Toe.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 		C42D302715B507E6004F9091 /* Tic Tac Toe */ = {
 			isa = PBXGroup;
 			children = (
+				C42D304115B517C6004F9091 /* Tic Tac Toe.entitlements */,
 				C42D303315B507E6004F9091 /* AppDelegate.h */,
 				C42D303415B507E6004F9091 /* AppDelegate.m */,
 				C42D303615B507E6004F9091 /* MainMenu.xib */,
@@ -252,6 +254,7 @@
 		C42D303F15B507E6004F9091 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tic Tac Toe/Tic Tac Toe.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tic Tac Toe/Tic Tac Toe-Prefix.pch";
 				INFOPLIST_FILE = "Tic Tac Toe/Tic Tac Toe-Info.plist";
@@ -263,6 +266,7 @@
 		C42D304015B507E6004F9091 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tic Tac Toe/Tic Tac Toe.entitlements";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tic Tac Toe/Tic Tac Toe-Prefix.pch";
 				INFOPLIST_FILE = "Tic Tac Toe/Tic Tac Toe-Info.plist";
