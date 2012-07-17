@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Tic Tac Toe' target in the 'Tic Tac Toe' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
