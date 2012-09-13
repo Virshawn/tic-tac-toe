@@ -3,7 +3,7 @@
 //  Tic Tac Toe
 //
 //  Created by Virshawn Hammonds on 7/16/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2012 Pointdexter11. All rights reserved.
 //
 
 #import "AppDelegate.h"
@@ -27,6 +27,8 @@
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    
+    
     
 }
 
@@ -124,6 +126,38 @@
 
     return __managedObjectContext;
 }
+
+
+//define the actions of the buttons_VKH
+- (IBAction)buttonn1:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn2:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn3:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn4:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn5:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn6:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn7:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn8:(NSButtonCell *)sender {
+}
+
+- (IBAction)buttonn9:(NSButtonCell *)sender {
+}
+
+
+
 
 // Returns the NSUndoManager for the application. In this case, the manager returned is that of the managed object context for the application.
 - (NSUndoManager *)windowWillReturnUndoManager:(NSWindow *)window
